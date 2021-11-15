@@ -39,7 +39,6 @@ class _DemoAppState extends State<DemoApp> {
           height: MediaQuery.of(context).size.height / 2,
           duration: 1500,
           fillColor: Colors.redAccent,
-          color: Colors.red[100],
           controller: _controller,
           backgroundColor: Colors.white54,
           strokeWidth: 10.0,
@@ -62,6 +61,7 @@ class _DemoAppState extends State<DemoApp> {
                 .show();
           },
           textStyle: TextStyle(fontSize: 50.0, color: Colors.black),
+          ringColor: Colors.red,
         ),
       ),
       floatingActionButton: FloatingActionButton.extended(
